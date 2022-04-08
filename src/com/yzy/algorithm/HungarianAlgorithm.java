@@ -14,7 +14,7 @@ public class HungarianAlgorithm {
         // 匈牙利算法要求矩阵长宽一致
         for (int i = 0; i < arrays.length; i++) {
             if (arrays[i].length != arrays.length) {
-             throw new CustomException(400, "Illegal Param");
+                throw new CustomException(400, "Illegal Param");
             }
         }
         //
